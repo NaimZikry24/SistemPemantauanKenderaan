@@ -1,0 +1,125 @@
+html, body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    height: calc(100vh - 50px); /* minus header height */
+    min-height: 0;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+main {
+    flex: 1;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    min-height: 0;
+    padding-bottom: 60px; /* space for fixed footer */
+    margin-bottom: 40px; /* space for footer */
+    float: none;
+    border-radius: 8px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+header {
+    background-color: #310d4d;
+    color: white;
+    padding: 4px 0;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    min-width: 300px;
+    border: 2px solid #333;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.info-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 15px;
+    margin: 8px 0 32px 0;
+    flex-wrap: wrap;
+}
+
+.info-box {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    color: #000000;
+    font-weight: bold;
+    padding: 10px 10px;
+    min-width: 120px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0;
+}
+
+.info-number {
+    font-size: 2.2em;
+    font-weight: bold;
+    margin-top: 2px;
+    color: #310d4d;
+}
+
+.time-box {
+    flex: 2 1 0;
+    background: #310d4d;
+    color: #fff;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 360px;
+    margin-left: 30px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #310d4d;
+    color: white;
+    text-align: center;
+    padding: 3px 0;
+    font-size: 0.95rem;
+}

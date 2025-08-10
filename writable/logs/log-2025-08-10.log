@@ -1,0 +1,24 @@
+CRITICAL - 2025-08-10 00:36:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "rekod_pemandu.php"
+[Method: GET, Route: rekod-pemandu]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rekod_pemandu.php')
+ 2 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('rekod_pemandu', [], true)
+ 3 APPPATH/Controllers/RekodPemandu.php(8): view('rekod_pemandu')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\RekodPemandu->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RekodPemandu))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-10 00:36:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "rekod_pemandu.php"
+[Method: GET, Route: rekod-pemandu]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('rekod_pemandu.php')
+ 2 SYSTEMPATH/Common.php(1167): CodeIgniter\View\View->render('rekod_pemandu', [], true)
+ 3 APPPATH/Controllers/RekodPemandu.php(8): view('rekod_pemandu')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\RekodPemandu->index()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RekodPemandu))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

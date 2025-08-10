@@ -5,7 +5,7 @@ Rekod Pemandu
 <?= $this->endSection() ?>
 
 <?= $this->section('content') ?>
-    <h2 style="text-align:center; color:#310d4d; margin-bottom:32px;">Rekod Pemandu</h2>
+    <div style="background:#310d4d; color:#fff; border-radius:6px; padding:12px 18px; font-size:1.2em; font-weight:bold; margin-bottom:32px; text-align:center;">Rekod Pemandu</div>
     <!-- Container: Left picture, right info -->
     <div style="display:flex; gap:32px; background:#fff; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.07); padding:32px; max-width:700px; margin:0 auto 32px auto; align-items:center;">
         <div style="flex:0 0 120px;">
